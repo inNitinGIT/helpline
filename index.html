@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HelpLine - Emergency Numbers</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container navbar">
+            <h1>HelpLine</h1>
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#helplines">Helplines</a>
+                <a href="#about">About</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- Hero Section -->
+
+        <section class="hero" id="home">
+
+            <div class="container">
+
+                <p class="tag">Emergency Support Directory</p>
+
+                <h2>
+                    Help is just<br>
+                    one call away.
+                </h2>
+
+                <p class="hero-text">
+                    Find important emergency and support numbers
+                    quickly when you need them.
+                </p>
+
+                <a href="#helplines" class="hero-button">
+                    Find a Helpline
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Helplines -->
+
+        <section class="helplines" id="helplines">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="tag">Quick Access</p>
+
+                    <h2>Important Helplines</h2>
+
+                    <p>
+                        Search and find the support number you need.
+                    </p>
+                </div>
+
+
+                <!-- Search -->
+
+                <div class="search-box">
+
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search police, ambulance, child..."
+                    >
+
+                    <select id="categoryFilter">
+
+                        <option value="all">
+                            All Categories
+                        </option>
+
+                        <option value="emergency">
+                            Emergency
+                        </option>
+
+                        <option value="support">
+                            Support
+                        </option>
+
+                        <option value="health">
+                            Health
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- Cards -->
+
+                <div id="helplineContainer" class="cards">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About -->
+
+        <section class="about" id="about">
+
+            <div class="container">
+
+                <p class="tag">About</p>
+
+                <h2>Why HelpLine?</h2>
+
+                <p>
+                    HelpLine provides a simple directory of important
+                    emergency and support numbers so people can find
+                    assistance quickly.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © 2026 HelpLine. Emergency information directory.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
